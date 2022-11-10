@@ -1,7 +1,7 @@
 # Author: Mason Hernandez
 # Date: 11/4/2022
-# Description: Will loop through all pass winning numbers and select 5 most comment numbers and 1 mega number.
-# Share winnings if you win ;)
+# Will take in all previous supper lotto winning numbers and output most common 5 numbers and 1 most common
+# mega number. Will also be able to output 5 least common numbers and 1 least mega nuber.
 
 
 from predict_supper_lotto import PredictWinningLotto
@@ -20,4 +20,3 @@ if __name__ == "__main__":
     mega_less_common = mega_past_nums.less_common_winning_nums()
     print(f"The most common Mega: {mega_common}")
     print(f"The least common Mega: {mega_less_common}")
-
